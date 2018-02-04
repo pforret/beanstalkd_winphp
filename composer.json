@@ -1,0 +1,16 @@
+{
+    "name": "pforret/beanstalkd_winphp",
+    "description": "Windows Command Line client for Beanstalkd, using PHP CLI, to make Windows CLI workers",
+    "type": "project",
+    "require": {
+        "davidpersson/beanstalk": "^2.0",
+        "tarsana/command": "^1.2"
+    },
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "Peter Forret",
+            "email": "peter@forret.com"
+        }
+    ]
+}

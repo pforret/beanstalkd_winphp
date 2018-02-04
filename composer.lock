@@ -1,0 +1,309 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "749aab5a744d87c34cef07fc8bc62365",
+    "packages": [
+        {
+            "name": "davidpersson/beanstalk",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/davidpersson/beanstalk.git",
+                "reference": "3ac94072eed8e96f4b8a28d0c3319ed961fa0a7d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/davidpersson/beanstalk/zipball/3ac94072eed8e96f4b8a28d0c3319ed961fa0a7d",
+                "reference": "3ac94072eed8e96f4b8a28d0c3319ed961fa0a7d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=4.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Beanstalk\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Persson",
+                    "email": "davidpersson@gmx.de"
+                }
+            ],
+            "description": "Minimalistic PHP client for beanstalkd.",
+            "homepage": "https://github.com/davidpersson/beanstalk",
+            "keywords": [
+                "Socket",
+                "beanstalk",
+                "beanstalkd",
+                "queue"
+            ],
+            "time": "2015-01-13T13:19:29+00:00"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "78be803ce01e55d3491c1397cf1c64beb9c1b63b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/78be803ce01e55d3491c1397cf1c64beb9c1b63b",
+                "reference": "78be803ce01e55d3491c1397cf1c64beb9c1b63b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2018-01-30T19:27:44+00:00"
+        },
+        {
+            "name": "tarsana/command",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tarsana/command.git",
+                "reference": "f93915281617e7370ad02485b4e5a546d9c9f091"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tarsana/command/zipball/f93915281617e7370ad02485b4e5a546d9c9f091",
+                "reference": "f93915281617e7370ad02485b4e5a546d9c9f091",
+                "shasum": ""
+            },
+            "require": {
+                "tarsana/io": "^2.0",
+                "tarsana/syntax": "^2.0",
+                "twig/twig": "^2.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tarsana\\Command\\": "src",
+                    "Tarsana\\Tester\\": "tester",
+                    "Tarsana\\Command\\Tests\\": "tests",
+                    "Tarsana\\Command\\Examples\\": "examples"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Amine Ben hammou",
+                    "email": "webneat@gmail.com"
+                }
+            ],
+            "description": "A framework to build command line applications and share them with the world",
+            "time": "2017-09-14T02:53:12+00:00"
+        },
+        {
+            "name": "tarsana/io",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tarsana/io.git",
+                "reference": "70ea345d52038ac4b4b48f464e4f5805fb5ed8db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tarsana/io/zipball/70ea345d52038ac4b4b48f464e4f5805fb5ed8db",
+                "reference": "70ea345d52038ac4b4b48f464e4f5805fb5ed8db",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tarsana\\IO\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Amine Ben hammou",
+                    "email": "webneat@gmail.com"
+                }
+            ],
+            "description": "Tarsana IO library",
+            "time": "2017-09-02T18:32:00+00:00"
+        },
+        {
+            "name": "tarsana/syntax",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tarsana/syntax.git",
+                "reference": "fd3f8a25e3be0e391c8fd486ccfcffe913ade534"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tarsana/syntax/zipball/fd3f8a25e3be0e391c8fd486ccfcffe913ade534",
+                "reference": "fd3f8a25e3be0e391c8fd486ccfcffe913ade534",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tarsana\\Syntax\\": "src/",
+                    "Tarsana\\Syntax\\UnitTests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Amine Ben hammou",
+                    "email": "webneat@gmail.com"
+                }
+            ],
+            "description": "A tool to encode and decode strings based on flexible and composable syntax definitions.",
+            "time": "2017-09-08T04:27:25+00:00"
+        },
+        {
+            "name": "twig/twig",
+            "version": "v2.4.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "eddb97148ad779f27e670e1e3f19fb323aedafeb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/eddb97148ad779f27e670e1e3f19fb323aedafeb",
+                "reference": "eddb97148ad779f27e670e1e3f19fb323aedafeb",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "require-dev": {
+                "psr/container": "^1.0",
+                "symfony/debug": "~2.7",
+                "symfony/phpunit-bridge": "~3.3@dev"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Twig_": "lib/"
+                },
+                "psr-4": {
+                    "Twig\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
+                },
+                {
+                    "name": "Twig Team",
+                    "homepage": "http://twig.sensiolabs.org/contributors",
+                    "role": "Contributors"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "http://twig.sensiolabs.org",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2017-09-27T18:10:31+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
